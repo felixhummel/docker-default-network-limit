@@ -21,3 +21,8 @@ The error message is
 ```
 Error response from daemon: failed to parse pool request for address space "LocalDefault" pool "" subpool "": could not find an available predefined network
 ```
+
+
+# Solution
+
+Explicit subnet: See `./subnets.sh`.
