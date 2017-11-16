@@ -1,0 +1,12 @@
+version: '2.1'
+
+services:
+  foo:
+    image: busybox
+
+# https://docs.docker.com/compose/compose-file/compose-file-v2/#ipam
+networks:
+  default:
+    ipam:
+      config:
+        - subnet: 172.28.0.0/16
